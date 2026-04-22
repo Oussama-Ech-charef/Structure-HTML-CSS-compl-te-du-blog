@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tangier Vibes - اكتشف أجمل الأماكن في طنجة">
+    <title>Tangier Vibes</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site_header">
+        <nav class="header_nav">
+
+            <a href="#" class="logo" id="logo_link">
+                <i class="fa-solid fa-compass navbar_logo-icon"></i>
+                <span class="logo_first">Tangier</span>
+                <span class="logo_second">Vibes</span>
+            </a>
+
+            <div class="mobile_top_bar" id="mobile_top_bar">
+                <button class="menu_btn" id="menu_btn" aria-label="فتح القائمة">
+                    <i class="fa-solid fa-bars" id="menu_icon"></i>
+                </button>
+
+                <button class="search_toggle_btn" id="search_toggle_btn" aria-label="فتح البحث">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <div class="search_box" id="search_box">
+                <i class="fa-solid fa-magnifying-glass search_icon"></i>
+                <input
+                    type="text"
+                    class="search_input"
+                    id="search_input"
+                    placeholder="Search places..."
+                >
+            </div>
+
+           
+
+            <ul class="nav_links" id="nav_links">
+                <li><a href="#" class="nav_link active" id="nav_home">Home</a></li>
+                <li><a href="#" class="nav_link" id="nav_top">Top Places</a></li>
+                <li><a href="#" class="nav_link" id="nav_explore">Explore</a></li>
+                <li>
+                    <a href="#" class="nav_link" id="nav_favorites">
+                        <i class="fa-regular fa-heart"></i> Favorites
+                    </a>
+                </li>
+
+                
+
+                <li class="mobile_auth">
+                    <a href="#" class="nav_link" id="nav_login">
+                        <i class="fa-regular fa-user"></i> Login
+                    </a>
+                </li>
+                <li class="mobile_auth">
+                    <a href="#" class="nav_link nav_register" id="nav_register">
+                        <i class="fa-solid fa-user-plus"></i> Register
+                    </a>
+                </li>
+            </ul>
+
+             
+
+            <div class="auth_btns" id="auth_btns">
+                <a href="#" class="login_btn" id="login_btn">Login</a>
+                <a href="#" class="join_btn" id="join_btn">Register</a>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <section class="hero_section" id="hero_section">
+
+            <div class="hero_img active" id="hero_img_1" style="background-image: url('images/image1.jpg')"></div>
+
+            <div class="hero_img" id="hero_img_2" style="background-image: url('images/image2.jpg')"></div>
+
+            <div class="hero_img" id="hero_img_3" style="background-image: url('images/image3.jpg')"></div>
+
+            <div class="hero_img" id="hero_img_4" style="background-image: url('images/image4.jpg')"></div>
+
+            <div class="hero_img" id="hero_img_5" style="background-image: url('images/image5.jpg')"></div>
+
+            <div class="hero_overlay"></div>
+
+            <div class="hero_content">
+
+                <p class="hero_label">WELCOME TO YOUR GATEWAY TO AFRICA</p>
+
+                <h1 class="hero_title">
+                    Experience the Magic<br>
+                    of <span class="hero_highlight">Tangier</span>
+                </h1>
+
+                <p class="hero_desc">
+                    Discover hidden beaches, legendary cafes, exquisite<br>
+                    restaurants, and historic landmarks in the Pearl of the North.
+                </p>
+
+                <div class="hero_btns">
+                    <a href="#" class="hero_btn_primary" id="btn_explore">
+                        Start Exploring
+                    </a>
+
+                    <a href="#" class="hero_btn_outline" id="btn_top">
+                        Top Picks <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+
+</section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
