@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tangier Vibes - ">
+    <title>Tangier Vibes</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site_header">
+        <nav class="header_nav">
+
+            <a href="index.html" class="logo" id="logo_link">
+                <i class="fa-solid fa-compass navbar_logo-icon"></i>
+                <span class="logo_first">Tangier</span>
+                <span class="logo_second">Vibes</span>
+            </a>
+
+            <div class="mobile_top_bar" id="mobile_top_bar">
+                <button class="menu_btn" id="menu_btn" aria-label="menu opem">
+                    <i class="fa-solid fa-bars" id="menu_icon"></i>
+                </button>
+
+                <button class="search_toggle_btn" id="search_toggle_btn" aria-label="search open">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            
+
+           
+
+            <ul class="nav_links" id="nav_links">
+                <li><a href="index.html" class="nav_link " id="nav_home">Home</a></li>
+                <li><a href="#" class="nav_link" id="nav_top">Top Places</a></li>
+                <li><a href="articles.html" class="nav_link active" id="nav_explore">Explore</a></li>
+                <li>
+                    <a href="#" class="nav_link" id="nav_favorites">
+                        <i class="fa-regular fa-heart"></i> Favorites
+                    </a>
+                </li>
+
+                
+
+                <li class="mobile_auth">
+                    <a href="#" class="nav_link" id="nav_login">
+                        <i class="fa-regular fa-user"></i> Login
+                    </a>
+                </li>
+                <li class="mobile_auth">
+                    <a href="#" class="nav_link nav_register" id="nav_register">
+                        <i class="fa-solid fa-user-plus"></i> Register
+                    </a>
+                </li>
+            </ul>
+
+
+            <div class="search_box" id="search_box">
+                <i class="fa-solid fa-magnifying-glass search_icon"></i>
+                <input
+                    type="text"
+                    class="search_input"
+                    id="search_input"
+                    placeholder="Search places..."
+                >
+            </div>
+
+             
+
+            <div class="auth_btns" id="auth_btns">
+                <a href="#" class="login_btn" id="login_btn">Login</a>
+                <a href="#" class="join_btn" id="join_btn">Register</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="explore_page">
+    <section class="explore_section">
+        
+        <div class="explore_header">
+            <h1 class="explore_title">Explore by Category</h1>
+            <p class="explore_subtitle">Find exactly what you're looking for</p>
+        </div>
+
+        <div class="explore_filters">
+            <button class="filter_btn active">All Places</button>
+            <button class="filter_btn">Beaches</button>
+            <button class="filter_btn">Cafes</button>
+            <button class="filter_btn">Hotels</button>
+            <button class="filter_btn">Markets</button>
+            <button class="filter_btn">Museums</button>
+            <button class="filter_btn">Parks</button>
+            <button class="filter_btn">Restaurants</button>
+            <button class="filter_btn">Tourist Spots</button>
+        </div>
+
+        <div class="explore_grid">
+            
+            <div class="explore_card">
+                <div class="card_img_wrapper">
+                    <span class="card_badge">Beach</span>
+                    <img src="images/image6.jpg" alt="Plage Achakar" class="card_img">
+                    <button class="card_heart" aria-label="Add to favorites "><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card_body">
+                    <h3 class="card_title">Plage Achakar</h3>
+                    <p class="card_desc">A wild, untouched beach near the Caves of Hercules — one of Tangier's best-kept secrets.</p>
+                    <div class="card_footer">
+                        <span class="card_views"><i class="fa-regular fa-eye"></i> 899</span>
+                        <a href="#" class="card_link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="explore_card">
+                <div class="card_img_wrapper">
+                    <span class="card_badge">Beach</span>
+                    <img src="images/image2.jpg" alt="Plage Malabata" class="card_img">
+                    <button class="card_heart" aria-label="Add to favorites "><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card_body">
+                    <h3 class="card_title">Plage Malabata</h3>
+                    <p class="card_desc">A stunning sandy beach stretching along the Bay of Tangier, perfect for swimming and sunsets.</p>
+                    <div class="card_footer">
+                        <span class="card_views"><i class="fa-regular fa-eye"></i> 1,255</span>
+                        <a href="#" class="card_link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="explore_card">
+                <div class="card_img_wrapper">
+                    <span class="card_badge">Beach</span>
+                    <img src="images/image3.jpg" alt="Plage Rmilat" class="card_img">
+                    <button class="card_heart" aria-label="Add to favorites "><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card_body">
+                    <h3 class="card_title">Plage Rmilat</h3>
+                    <p class="card_desc">A charming urban beach right in the heart of Tangier, with a beautiful seaside promenade.</p>
+                    <div class="card_footer">
+                        <span class="card_views"><i class="fa-regular fa-eye"></i> 822</span>
+                        <a href="#" class="card_link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="explore_card">
+                <div class="card_img_wrapper">
+                    <span class="card_badge">Cafe</span>
+                    <img src="images/image4.jpg" alt="Café Hafa" class="card_img">
+                    <button class="card_heart" aria-label="Add to favorites "><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card_body">
+                    <h3 class="card_title">Café Hafa</h3>
+                    <p class="card_desc">A legendary cliffside tea house overlooking the Strait of Gibraltar, frequented by artists and writers.</p>
+                    <div class="card_footer">
+                        <span class="card_views"><i class="fa-regular fa-eye"></i> 3,243</span>
+                        <a href="#" class="card_link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="explore_card">
+                <div class="card_img_wrapper">
+                    <span class="card_badge">Tourist Spot</span>
+                    <img src="images/image5.jpg" alt="Caves of Hercules" class="card_img">
+                    <button class="card_heart" aria-label="Add to favorites"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card_body">
+                    <h3 class="card_title">Caves of Hercules</h3>
+                    <p class="card_desc">A mythical natural sea cave on the Atlantic coast, where legend says Hercules rested before his labors.</p>
+                    <div class="card_footer">
+                        <span class="card_views"><i class="fa-regular fa-eye"></i> 5,622</span>
+                        <a href="#" class="card_link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="explore_card">
+                <div class="card_img_wrapper">
+                    <span class="card_badge">Tourist Spot</span>
+                    <img src="images/image6.jpg" alt="Grand Socco" class="card_img">
+                    <button class="card_heart" aria-label="Add to favorites"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card_body">
+                    <h3 class="card_title">Grand Socco</h3>
+                    <p class="card_desc">The vibrant main square of Tangier's medina, a meeting point of old and new Morocco.</p>
+                    <div class="card_footer">
+                        <span class="card_views"><i class="fa-regular fa-eye"></i> 2,190</span>
+                        <a href="#" class="card_link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="pagination">
+            <button class="page_btn disabled"><i class="fa-solid fa-arrow-left"></i> Previous</button>
+            <button class="page_num active">1</button>
+            <button class="page_num">2</button>
+            <span class="page_text">Page 1 of 2</span>
+            <button class="page_btn">Next <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+    </section>
+</main>
+
+
+    
+
+
+
+
+    <footer class="site_footer">
+
+        <div class="footer_top">
+
+            <div class="footer_about">
+
+                <a href="#" class="logo footer_logo">
+                    <i class="fa-solid fa-compass navbar_logo-icon"></i>
+                    <span class="logo_first">Tangier</span>
+                    <span class="logo_second">Vibes</span>
+                </a>
+
+                <p class="footer_desc">
+                    Your ultimate guide to discovering the magic, culture,
+                    and coastal beauty of Tangier, Morocco.
+                </p>
+
+            </div>
+
+            <div class="footer_col">
+                <h4 class="footer_col_title">Quick Links</h4>
+                <ul class="footer_links">
+                    <li><a href="#" class="footer_link">Home</a></li>
+                    <li><a href="#" class="footer_link">Top Places</a></li>
+                    <li><a href="#" class="footer_link">Explore</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_col">
+                <h4 class="footer_col_title">Categories</h4>
+                <ul class="footer_links">
+                    <li><a href="#" class="footer_link">Beaches</a></li>
+                    <li><a href="#" class="footer_link">Cafes</a></li>
+                    <li><a href="#" class="footer_link">Restaurants</a></li>
+                    <li><a href="#" class="footer_link">Tourist Spots</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_col">
+                <h4 class="footer_col_title">Follow Us</h4>
+                <div class="footer_socials">
+                    <a href="#" class="social_icon" id="social_facebook" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social_icon" id="social_instagram" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social_icon" id="social_twitter" aria-label="Twitter">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer_bottom">
+            <p class="footer_copy">
+                © 2026 TangierVibes. All rights reserved.
+            </p>
+        </div>
+
+    </footer>
+        <script src="js/main.js"></script>
+
+</body>
+</html>
