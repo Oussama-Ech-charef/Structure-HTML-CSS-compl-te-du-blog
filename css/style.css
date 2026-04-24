@@ -1057,7 +1057,7 @@ ul {
 
 .post_hero {
     position: relative;
-    height: 500px;
+    height: 350px;
     width: 100%;
     overflow: hidden;
     display: flex;
@@ -1093,7 +1093,6 @@ ul {
     z-index: 1;
     max-width: 800;
     padding: 0 20px;
-    margin-bottom: -200px;
 }
 .post_badge {
     background-color: #2563eb;
@@ -1133,7 +1132,7 @@ ul {
 }
 .post_details_wrapper {
     background-color: #f8fafc; 
-    padding: 80px 0;
+    padding: 20px 0;
 }
 
 .container_inner {
