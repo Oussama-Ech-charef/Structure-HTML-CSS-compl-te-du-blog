@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tangier Vibes - Plage Achakar Details">
+    <title>Plage Achakar - Tangier Vibes</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+        <!-- header  -->
+    <header class="site_header">
+
+        <nav class="header_nav">
+
+            <a href="index.html" class="logo" id="logo_link">
+                <i class="fa-solid fa-compass navbar_logo-icon"></i>
+                <span class="logo_first">Tangier</span>
+                <span class="logo_second">Vibes</span>
+            </a>
+
+            <div class="mobile_top_bar" id="mobile_top_bar">
+                <button class="menu_btn" id="menu_btn" aria-label="menu opem">
+                    <i class="fa-solid fa-bars" id="menu_icon"></i>
+                </button>
+
+                <button class="search_toggle_btn" id="search_toggle_btn" aria-label=" search open">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            
+
+            <ul class="nav_links" id="nav_links">
+                <li><a href="index.html" class="nav_link" id="nav_home">Home</a></li>
+                <li><a href="#" class="nav_link" id="nav_top">Top Places</a></li>
+                <li><a href="explore.html" class="nav_link" id="nav_explore">Explore</a></li>
+                <li>
+                    <a href="#" class="nav_link" id="nav_favorites">
+                        <i class="fa-regular fa-heart"></i> Favorites
+                    </a>
+                </li>
+
+                <li class="mobile_auth">
+                    <a href="#" class="nav_link" id="nav_login">
+                        <i class="fa-regular fa-user"></i> Login
+                    </a>
+                </li>
+                <li class="mobile_auth">
+                    <a href="#" class="nav_link nav_register" id="nav_register">
+                        <i class="fa-solid fa-user-plus"></i> Register
+                    </a>
+                </li>
+            </ul>
+
+            <div class="search_box" id="search_box">
+                <i class="fa-solid fa-magnifying-glass search_icon"></i>
+                <input type="text" class="search_input" id="search_input" placeholder="Search places...">
+            </div>
+
+            <div class="auth_btns" id="auth_btns">
+                <a href="#" class="login_btn" id="login_btn">Login</a>
+                <a href="#" class="join_btn" id="join_btn">Join Now</a>
+            </div>
+
+        </nav>
+    </header>
+        <!-- hero image the post  -->
+    <section class="post_hero">
+        <img src="images/image2.jpg" alt="Plage Achakar" class="post_hero_img" loading="lazy">
+        <div class="post_hero_overlay"></div>
+        
+        <div class="post_hero_content">
+            <span class="post_badge">Beach</span>
+            <h1 class="post_title">Plage Achakar</h1>
+            <div class="post_meta">
+                <span class="meta_item"><i class="fa-regular fa-eye"></i> 900 views</span>
+                <span class="meta_item"><i class="fa-regular fa-comment"></i> 1 comment</span>
+                <span class="meta_item"><i class="fa-regular fa-calendar"></i> April 20, 2026</span>
+            </div>
+        </div>
+    </section>
+
+    <main class="post_details_wrapper">
+        <div class="container_inner">
+            <div class="post_layout_grid">
+                    <!-- content and comment map  -->
+                <div class="post_main_content">
+                    
+                    <div class="post_article_body">
+                        <p class="intro_text">A wild, untouched beach near the Caves of Hercules — one of Tangier's best-kept secrets.</p>
+                        <p>Tucked away on the Atlantic side of the Cap Spartel peninsula, Plage Achakar is a raw and majestic stretch of coast beloved by surfers and adventurers. The waves here are powerful, and the scenery is breathtaking.</p>
+                        <p>The beach is relatively undeveloped, which means you get an authentic experience away from the tourist crowds. Bring your own supplies and enjoy one of Morocco's most beautiful coastlines in peace.</p>
+                    </div>
+
+                    <div class="post_section_location">
+                        <h3 class="location_area_title"><i class="fa-solid fa-location-dot"></i> Location</h3>
+                        <p class="location_address"><i class="fa-solid fa-location-arrow" style="font-size: 11px; margin-right: 4px; color: #94a3b8;"></i> Achakar, Cap Spartel, Tangier</p>
+                        <div class="map_box">
+                            <iframe class="map_static_img"
+                                src="https://maps.app.goo.gl/QXE4tri545NRKD7h6"
+                               
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy">
+                            </iframe>
+                            <div class="map_controls_overlay">
+                                <div class="map_zoom_btn">+</div>
+                                <div class="map_zoom_btn">−</div>
+                            </div>
+                            <div class="map_pin_label">Plage Achakar</div>
+                            <div class="map_attribution_overlay">Leaflet | © OpenStreetMap</div>
+                        </div>
+                    </div>
+
+                    <div class="post_action_btns">
+                        <a href="explore.html" class="btn_back_explore"><i class="fa-solid fa-arrow-left"></i> Explore</a>
+                        <a href="#" class="btn_more_category">More Beachs <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="post_comments_area">
+                        <h3 class="comments_area_title"><i class="fa-regular fa-comments"></i> Comments <span class="comment_count_badge">1</span></h3>
+                        
+                        <div class="comment_list">
+                            <div class="comment_card">
+                                <div class="comment_user_icon">
+                                    T
+                                </div>
+                                <div class="comment_content">
+                                    <div class="comment_header">
+                                        <span class="user_name">Tom B.</span>
+                                        <span class="comment_time">Apr 20, 2026</span>
+                                    </div>
+                                    <p class="comment_text">Best surfing beach near Tangier. Powerful waves and almost no tourists. Absolutely loved it.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="comment_form_wrapper">
+                            <h4 class="form_sub_title">Leave a Comment</h4>
+                            <form action="#" class="comment_form">
+                                <div class="form_row">
+                                    <label for="name_input">Your Name *</label>
+                                    <input type="text" id="name_input" class="input_field" required>
+                                </div>
+                                <div class="form_row">
+                                    <label for="comment_input">Your Comment *</label>
+                                    <textarea id="comment_input" class="textarea_field" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn_submit_comment"><i class="fa-regular fa-paper-plane"></i> Post Comment</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                        <!-- sidbare  -->
+                <aside class="post_sidebar_column">
+                    
+                    <div class="sidebar_card_info">
+                        <h3 class="sidebar_card_title">About This Place</h3>
+                        <ul class="place_stats_list">
+                            <li>
+                                <i class="fa-solid fa-layer-group"></i>
+                                <div class="stat_text">
+                                    <span>Category</span>
+                                    <strong>Beach</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-eye"></i>
+                                <div class="stat_text">
+                                    <span>Views</span>
+                                    <strong>900</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-comment"></i>
+                                <div class="stat_text">
+                                    <span>Comments</span>
+                                    <strong>1</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <div class="stat_text">
+                                    <span>Posted</span>
+                                    <strong>Apr 20, 2026</strong>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <button class="btn_sidebar_save"><i class="fa-regular fa-heart"></i> Save to Favorites</button>
+
+                        <div class="sidebar_social_share">
+                            <span class="share_text">Share:</span>
+                            <div class="social_icon_links">
+                                <a href="#" class="social_link fb"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="social_link tw"><i class="fa-brands fa-x"></i></a>
+                                <a href="#" class="social_link wa"><i class="fa-brands fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+            </div>
+        </div>
+    </main>
+        <!-- footer  -->
+    <footer class="site_footer">
+        <div class="footer_top">
+            
+            <div class="footer_about">
+                <a href="index.html" class="logo footer_logo">
+                <i class="fa-solid fa-compass navbar_logo-icon"></i>
+                    <span class="logo_first">Tangier</span>
+                    <span class="logo_second">Vibes</span>
+                </a>
+                <p class="footer_desc">
+                    Your ultimate guide to discovering the magic, culture,
+                    and coastal beauty of Tangier, Morocco.
+                </p>
+            </div>
+
+            <div class="footer_col">
+                <h4 class="footer_col_title">Quick Links</h4>
+                <ul class="footer_links">
+                    <li><a href="index.html" class="footer_link">Home</a></li>
+                    <li><a href="#" class="footer_link">Top Places</a></li>
+                    <li><a href="explore.html" class="footer_link">Explore</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_col">
+                <h4 class="footer_col_title">Categories</h4>
+                <ul class="footer_links">
+                    <li><a href="#" class="footer_link">Beaches</a></li>
+                    <li><a href="#" class="footer_link">Cafes</a></li>
+                    <li><a href="#" class="footer_link">Restaurants</a></li>
+                    <li><a href="#" class="footer_link">Tourist Spots</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_col">
+                <h4 class="footer_col_title">Follow Us</h4>
+                <div class="footer_socials">
+                    <a href="#" class="social_icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social_icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social_icon"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer_bottom">
+            <p class="footer_copy">
+                © 2026 TangierVibes. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
